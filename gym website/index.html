@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushal's Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background:url("abs-g7643c3843_1920.jpg");
+        color: white;
+        font-family: cursive;
+      
+    }
+    .left{
+      /* border: 2px solid red; */
+      display: inline-block;
+      position: absolute;
+      left: 34px;
+      top: 10px;
+    }
+   .left img{
+    width: 136px;
+   }
+    .left div{
+        text-align: center;
+        font-family: cursive;
+    }
+    .mid{
+        display: block;
+        width: 38%;
+        margin: 10px 225px;
+        /* border: 2px solid green; */
+        display: block;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 10px;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+    }
+    .navbar{
+display: inline-block;
+    }
+    
+    .navbar li{
+display: inline-block;
+    }
+    .navbar li a{
+color :white;
+text-decoration: none;
+padding: 23px 14px;
+    }
+    .navbar li a:hover ,.navbar li a:active  {
+color: rgb(201, 195, 195);
+text-decoration: underline;
+    }
+    .btn{
+        margin: 16px 7px;
+        background-color: black;
+        color: white;
+        padding: 4px 10px;
+        border: 2px solid rgb(97, 95, 95);
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: cursive;
+    }
+    .btn:hover{
+        color: rgb(177, 168, 168);
+    }
+    .container{
+        border: 2px solid white;
+        margin: 75px 0px;
+        padding: 75px;
+        border-radius: 28px;
+        width: 30%;
+    }
+    .class-group input{
+        text-align: center;
+        display: block;
+        padding: 5px;
+        width: 90%;
+        border: 2px solid black;
+        border-radius: 6px;
+        margin: 3px auto;
+        font-family: cursive;
+    }
+    .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 93%;
+        margin: 20px auto;
+    }
+    .class-group input:hover{
+        background-color: rgb(243, 237, 237);
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images.png" alt="">
+            <div>Kushal's Fitness</div>
+        </div>
+        <div class="mid">
+           <ul class="navbar">
+            <li> <a href="a">Home</a> </li>
+            <li> <a href="a">Fitness Services</a> </li>
+            <li> <a href="a">About Us</a> </li>
+            <li> <a href="a">Contant Us</a> </li>
+           </ul>
+        </div>
+        <div class="right">
+          <button class="btn">Follow Us</button> 
+          <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+     <h2>Join the best Gym in Indore</h2>
+     <form action="noaction.php">
+        <div class="class-group">
+            <input type="text" name=""  placeholder="Enter your Name">
+        </div>
+        <div class="class-group">
+            <input type="text" name=""  placeholder="Enter your Age">
+        </div>
+        <div class="class-group">
+            <input type="text" name=""  placeholder="Enter your Gender">
+        </div>
+        <div class="class-group">
+            <input type="text" name=""  placeholder="Enter your Locality">
+        </div>
+        <button class="btn">
+            Submit
+        </button>
+     </form>
+    </div>
+</body>
+</html>
